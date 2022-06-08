@@ -1,34 +1,51 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
 h1 {
-  color: blue;
   font-size: 26px;
-}
-
-.yellow-color {
-  font: size 18px;
-  color: yellow;
-}
-.article-img {
-  background-color: lightgrey;
-}
-#heading-title {
+  text-transform: uppercase;
   font-style: italic;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-underline-position: below;
-  color: teal;
-  font-weight: 900;
 }
 
-.remove-underline {
-  font-weight: 600;
-  text-decoration: none;
-  text-decoration-line: none;
+h2 {
+  font-size: 40px;
 }
 
-.color-change {
-  background-color: black;
-  text-decoration-color: white;
+h3 {
+  font-size: 30px;
 }
 
-.text-style {
-  text-decoration: solid;
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+}
+
+/* footer p {
+  font-size: 16px;
+} */
+
+/*article header p{
+  font-style: initial;
+}*/
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+#copyright {
+  font-size: 16px;
 }
