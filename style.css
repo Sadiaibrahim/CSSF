@@ -5,7 +5,14 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
 }
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
 h1 {
   font-size: 26px;
   text-transform: uppercase;
@@ -42,10 +49,46 @@ li {
   font-style: initial;
 }*/
 
+/* (note to self:(the id selector) we use # for ID, we avoid using id in CSS) */
 #author {
   font-style: italic;
   font-size: 18px;
 }
+
 #copyright {
   font-size: 16px;
 }
+/* (Note to self:this (the class selector).dot is used for class, class is most prefered) */
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* note to self:remove bulletpoints from list, place the class at the ul or ol, not at the li. */
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+/* note to self:(the element selector) when we use the html element to style, we call is element selector. */
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+/* body {
+  background-color: orange;
+} */
+/* notes to self; Pseudo-classes can we used to style items on the list. examples below  */
+
+/* li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+li:nth-child(even) {
+  color: rebeccapurple;
+} */
