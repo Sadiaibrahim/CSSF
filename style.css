@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* Page sessions */
 body {
@@ -11,11 +12,12 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 .main-header {
   background-color: #f7f7f7;
+  /* background-color: red; */
   padding: 20px 40px;
   margin-bottom: 60px;
 }
@@ -36,8 +38,8 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
+  box-sizing: border-box;
 }
 /* Smaller elements */
 h1,
@@ -67,6 +69,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 p {
   font-size: 22px;
@@ -113,6 +116,7 @@ li:last-child {
 /* note to self:remove bulletpoints from list, place the class at the ul or ol, not at the li. */
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 /* body {
@@ -197,7 +201,6 @@ footer p {
   margin-bottom: 20px;
 }
 .author {
-  /* padding-left: 80px; */
   float: left;
   margin-top: 10px;
   margin-left: 20px;
@@ -223,4 +226,30 @@ h2::after {
   position: absolute;
   top: -10px;
   right: -25px;
+}
+h1 {
+  float: left;
+}
+nav {
+  float: right;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
