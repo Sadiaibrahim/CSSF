@@ -35,7 +35,7 @@
 <article>
 <header class="post-header">
     <h2>The Basic Language of the web:HTML</h2>
-
+<div class="author-box">
 <img 
 src="img/laura-jones.jpg"
 alt="Headshot of Laura Jones" 
@@ -47,7 +47,8 @@ class="author-img"/>
       Posted by <strong>Laura Jones</strong> on 
       Monday, June 21st 2027
     </p>
-
+  </div>
+  </header>
     <img 
     src="img/post-img.jpg"
     alt="HTML code on a screen" 
@@ -88,11 +89,10 @@ class="author-img"/>
   <li>The actual element</li>
 </ol>
 
-<p>You can learn more at </p>
-  <a href="https://developer.mozilla.org/en-US/"
-  target="_blank"
-  >MDN Web Docs</a> 
-  
+<p>You can learn more at
+<a href="https://developer.mozilla.org/en-US/"
+  target="_blank" >MDN Web Docs</a> 
+</p> 
 
 <h3>Why should you learn HTML?</h3>
 
@@ -117,34 +117,43 @@ class="author-img"/>
 
   <ul class="related">
     
-      <li>
+      <li class="related-post">
         <img 
         src="img/related-1.jpg"
         alt="man using computer" 
         width="75" 
         height="75"
         />
-      <a href="#"https://coder-coder.com/learn-web-development/"target="_blank">How to Learn Web Development</a>
-     <p class="related-author">By Jonas Schmedtmann</p>
+        <div>
+      <a href="#" class="related-link">How to Learn Web Development</a>
+      <p class="related-author">By Jonas Schmedtmann</p>
+    </div>
+
+      
     </li>
-      <li>
+      <li class="related-post">
         <img src="img/related-2.jpg"
         alt="lightning" 
         width="75" 
         height="75"
         />
-        <a href="#"https://web.dev/the-amazing-powers-of-css/"target="_blank">The Unknown Powers of CSS</a>
+        <div>
+        <a href="#" class="related-link">The Unknown Powers of CSS</a>
         <p class="related-author">By Jim Dillon</p>
+      </div>
       </li>
    
-      <li>
+      <li class="related-post">
         <img src="img/related-3.jpg"
         alt="computer language" 
         width="75" 
         height="75"
         />
-        <a href="#"https://www.matildaexp.com/events"target="_blank">Why JavaScript is Awesome</a>
-      <p class="related-author">By Matilda</p>
+        <div>
+        <a href="#" class="related-link">Why JavaScript is Awesome</a>
+        <p class="related-author">By Matilda</p>
+      </div>
+
     </li>
 
   </ul>
